@@ -5,7 +5,7 @@ import AllVideos from "./pages/allVideos/AllVideos";
 import UserProfile from "./pages/userProfile/UserProfile";
 import Create from "./pages/create/Create";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { HashRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 import * as React from "react";
 
