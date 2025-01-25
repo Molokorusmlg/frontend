@@ -23,7 +23,7 @@ function App() {
   return (
     <div className="App">
       <QueryClientProvider client={queryClient}>
-        <Router>
+        <Router basename="/frontend/">
           <Routes>
             {routes.map((route) => (
               <Route

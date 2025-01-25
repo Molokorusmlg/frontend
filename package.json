@@ -1,5 +1,6 @@
 {
   "name": "efrem",
+  "homepage": "https://molokorusmlg.github.io/frontend/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,7 +8,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run dev",
+    "deploy": "gh-pages -d dev"
   },
   "dependencies": {
     "@nectary/components": "^4.4.0",
